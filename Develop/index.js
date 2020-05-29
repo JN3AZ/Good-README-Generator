@@ -4,35 +4,93 @@ const fs = require("fs");
 inquirer
 .prompt([
     {
-        name:"name",
+        name:"projectTitle",
         type: "input",
-        message: "What is your name?",
+        message: "What is the title of your Project?",
     },
     {
-        name: "aboutMe",
+        name: "tableOfContents",
         type: "input",
-        message: "What is something interesting about you?",
+        message: "What is your table of contents?",
     },
     {
-        name: "email",
+        name: "description",
         type: "input",
-        message: "Please provide a good email to contact you",
+        message: "What is your description of the main steps of the project?",
     },
-])
-.then(function ({ name, aboutMe, email }){
-    const template = `
-    # ${name}
-
-    ## About Me
-
-    ${aboutMe}
-
-    ## Contact Me
-
-    ${email}
+    {
+        name:"installation",
+        type:"input",
+        message:"list any software or tools you need to install to build the project"
+    },
+    {
+        name:"usage",
+        type:"input",
+        message:"Is there anything else you want to clarify or any code snipits you want to provide?" 
+    },
+    {
+        name:"license",
+        type:"input",
+        message:"what is the license name of your project?" 
+    },
+    {
+        name:"contributing",
+        type:"input",
+        message:"List all people who contributed to this project?" 
+    },
+    {
+        name:"tests",
+        type:"input",
+        message:"What was your testing process to get the project running?" 
+    },
+    {
+        name:"troubleshooting",
+        type:"input",
+        message:"What are FAQ about your project and what are your solutions to common troubleshooting issues?" 
+    },
     
+])
+.then(function (answers){
+    const template = `
+# Project Title
+
+${answers.projectTitle}
+
+## Table of Contents
+
+${answers.tableOfContents}
+
+
+## Description
+
+${answers.description}
+
+## Installation
+
+${answers.installation}
+
+## Usage
+
+${answers.usage}
+
+## License
+
+${answers.license}
+
+##  Contributing
+
+${answers.license}
+
+## Tests
+
+${answers.test}
+
+##  Troubleshooting
+
+${answers.troubleshooting}
+
     `;
-      fs.writeFile("README.md", template, function () {});
+      fs.writeFile("README.md", template, function() {});
 });
 
 

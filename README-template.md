@@ -12,7 +12,7 @@ Here you can put a step by step guide that will help anyone reading get a simili
 
 
 ## Installation- Required software or tools needed
-list any or all software and tools you would need to install to proporly build the product.
+list any or all software and tools you would need to install to properly build the project.
 
 ## usage
 This section is great for clarifying anything you may have missed in the description. It usually will provide ready-to-use samples of code to help people get started right away.
