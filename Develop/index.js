@@ -9,9 +9,14 @@ inquirer
         message: "What is the title of your Project?",
     },
     {
-        name: "tableOfContents",
+        name: "githubUserName",
         type: "input",
-        message: "What is your table of contents?",
+        message: "What is your Github user name?",
+    },
+    {
+        name: "repositoryName",
+        type: "input",
+        message: "What is the name of your Github repository name?",
     },
     {
         name: "description",
@@ -52,36 +57,46 @@ inquirer
 ])
 .then(function (answers){
     const template = `
-# Project Title
+    
+#   Project Title
 
 ${answers.projectTitle}
 
-## Table of Contents
+![GitHub repo size](https://img.shields.io/github/repo-size/${answers.githubUserName}/${answers.repositoryName}?logo=github&logoColor=green&style=plastic)
 
-${answers.tableOfContents}
+![GitHub](https://img.shields.io/github/license/${answers.githubUserName}/${answers.repositoryName}?logo=github&logoColor=green)
 
+##  Table of Contents
 
-## Description
+*Description
+*Installation
+*Usage
+*License
+*Contributing
+*Tests
+*FAQ & Troubleshooting
+
+##  Description
 
 ${answers.description}
 
-## Installation
+##  Installation
 
 ${answers.installation}
 
-## Usage
+##  Usage
 
 ${answers.usage}
 
-## License
+##  License
 
 ${answers.license}
 
 ##  Contributing
 
-${answers.license}
+${answers.contributing}
 
-## Tests
+##  Tests
 
 ${answers.test}
 
@@ -93,24 +108,3 @@ ${answers.troubleshooting}
       fs.writeFile("README.md", template, function() {});
 });
 
-
-
-
-
-
-
-
-
-
-// const questions = [
-
-// ];
-
-// function writeToFile(fileName, data) {
-// }
-
-// function init() {
-
-// }
-
-// init();

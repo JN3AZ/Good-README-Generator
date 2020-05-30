@@ -1,33 +1,49 @@
 
-# Project Title
+    
+#   Project Title
+
 Good-README-Generator
 
+![GitHub repo size](https://img.shields.io/github/repo-size/JN3AZ/Good-README-Generator?logo=github&logoColor=green&style=plastic)
 
-## Description
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:  ```sh node index.js ```
+![GitHub](https://img.shields.io/github/license/JN3AZ/Good-README-Generator?logo=github&logoColor=green)
 
-## Installation
+##  Table of Contents
+
+*Description
+*Installation
+*Usage
+*License
+*Contributing
+*Tests
+*FAQ & Troubleshooting
+
+##  Description
+
+Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+
+##  Installation
 
 node.js, Visual Studios
 
-## Usage
+##  Usage
 
-not at the moment
+see video/giph
 
-## License
+##  License
 
-not sure yet
+MIT
 
 ##  Contributing
 
-not sure yet
+James Nowak
 
-## Tests
+##  Tests
 
 undefined
 
 ##  Troubleshooting
 
-Will provide later
+will add to this later
 
     
