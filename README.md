@@ -42,6 +42,6 @@ James Nowak
 
 Worked on this at home based on knowledge learned in class, this took a lot of trial and error and research for things like the badges.
 
-##  Troubleshooting
+## Screenshots of Demo
 
-n/a
+
