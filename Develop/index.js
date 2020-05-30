@@ -107,6 +107,6 @@ ${answers.test}
 ${answers.troubleshooting}
 
     `;
-      fs.writeFile("README.md", template, function() {});
+      fs.writeFile("genREADME.md", template, function() {});
 });
 
