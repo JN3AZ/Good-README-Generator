@@ -64,6 +64,8 @@ ${answers.projectTitle}
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/${answers.githubUserName}/${answers.repositoryName}?logo=github&logoColor=green&style=plastic)
 
+![GitHub followers](https://img.shields.io/github/followers/${answers.githubUserName}) 
+
 ![GitHub](https://img.shields.io/github/license/${answers.githubUserName}/${answers.repositoryName}?logo=github&logoColor=green)
 
 ##  Table of Contents

@@ -6,6 +6,8 @@ Good-README-Generator
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/JN3AZ/Good-README-Generator?logo=github&logoColor=green&style=plastic)
 
+![GitHub followers](https://img.shields.io/github/followers/JN3AZ) 
+
 ![GitHub](https://img.shields.io/github/license/JN3AZ/Good-README-Generator?logo=github&logoColor=green)
 
 ##  Table of Contents
@@ -20,7 +22,7 @@ Good-README-Generator
 
 ##  Description
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+Create a command-line application that dynamically generates a README.md from a user's input
 
 ##  Installation
 
@@ -44,6 +46,6 @@ undefined
 
 ##  Troubleshooting
 
-will add to this later
+n/a
 
     
