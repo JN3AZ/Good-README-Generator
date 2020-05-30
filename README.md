@@ -28,11 +28,11 @@ node.js, Visual Studios
 
 ##  Usage
 
-see video/giph
+After you have downloaded node.js you can in the terminal call  the command "node index" then it will propmt you with questions in which based off of your answers it will populate a README.md file with your answers for you!
 
 ##  License
 
-MIT
+N/a
 
 ##  Contributing
 
@@ -40,7 +40,7 @@ James Nowak
 
 ##  Tests
 
-undefined
+Worked on this at home based on knowledge learned in class, this took a lot of trial and error and research for things like the badges.
 
 ##  Troubleshooting
 
