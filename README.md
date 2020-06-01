@@ -44,4 +44,10 @@ Worked on this at home based on knowledge learned in class, this took a lot of t
 
 ## Screenshots of Demo
 
+<img src="Develop/images/README-SC1.PNG" width="800">
 
+<img src="Develop/images/README-SC2.PNG" width="800">
+
+<img src="Develop/images/README-SC3.PNG" width="800">
+
+<img src="Develop/images/README-SC4.PNG" width="800">
