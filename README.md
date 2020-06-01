@@ -28,7 +28,7 @@ node.js, Visual Studios
 
 ##  Usage
 
-After you have downloaded node.js you can in the terminal call  the command "node index" then it will propmt you with questions in which based off of your answers it will populate a README.md file with your answers for you!
+After you have downloaded node.js and visual studios or something similar open up the README generator file. Next open up the terminal and make sure you are on the correct file path. Next you must install inquirer by using the command "npm i inquirer" you can then in the terminal call the command "node index" then it will propmt you with questions in which based off of your answers it will populate a README.md file with your answers for you!
 
 ##  License
 
